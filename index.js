@@ -9,7 +9,7 @@ function findMatching(drivers, string){
   return new_drivers;
 }
 
-function fuzzyMatch(){
+function fuzzyMatch(drivers, string){
   var new_drivers = [];
   for(const driver of drivers){
     if (driver.charAt(0) == string.charAt(0)){
