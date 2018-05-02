@@ -8,3 +8,7 @@ function findMatching(drivers, string){
   }
   return new_drivers;
 }
+
+function fuzzyMatch(){
+
+}
