@@ -2,7 +2,7 @@
 function findMatching(drivers, string){
   var new_drivers = [];
   for(const driver of drivers){
-    if (driver.tolowercase() == string.tolowercase()){
+    if (driver == string){
       new_drivers.push(driver);
     }
   }
